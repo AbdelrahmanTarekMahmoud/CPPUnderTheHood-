@@ -15,8 +15,8 @@ public:
 int main()
 {
     Widget w1;
-    Widget w2(std::move(w1)); //calls the move cotr
+    Widget w2(my_move(w1)); //calls the move cotr
     Widget w3;
-    w3 = std::move(w2);//calls the move assignment 
+    w3 = my_move(w2);//calls the move assignment 
 
 }    
