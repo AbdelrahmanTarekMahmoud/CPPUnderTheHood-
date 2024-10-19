@@ -5,4 +5,5 @@ A comprehensive deep dive into the core mechanisms of C++, this repository provi
 2. [std::move](https://github.com/AbdelrahmanTarekMahmoud/CPPUnderTheHood/blob/main/Move/Move.cpp)
     ### Move Explanations:
           - **Why use `std::move`?**: `std::move` is used to transfer ownership of resources from one object to another without copying. It is essential for enabling move semantics in C++.
+      - **Explanation of `constexpr` in `std::move`**: `constexpr` is used in `std::move` to allow it to be evaluated at compile time when possible, making it more efficient.
 
