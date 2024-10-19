@@ -4,4 +4,5 @@ A comprehensive deep dive into the core mechanisms of C++, this repository provi
 1. [std::unique_ptr](https://github.com/AbdelrahmanTarekMahmoud/CPPUnderTheHood/blob/main/UniquePointer/UniquePointer.cpp)
 2. [std::move](https://github.com/AbdelrahmanTarekMahmoud/CPPUnderTheHood/blob/main/Move/Move.cpp)
     ### Move Explanations:
+          - **Why use `std::move`?**: `std::move` is used to transfer ownership of resources from one object to another without copying. It is essential for enabling move semantics in C++.
 
