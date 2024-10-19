@@ -7,7 +7,7 @@ A comprehensive deep dive into the core mechanisms of C++, this repository provi
              * Using of T&& arg : T&& is a universal reference so it binds to Lvalues and Rvalues
              * Using of constxpr : to evaluate at compile-time
              * Using std::remove_reference<T> : to remove anyreference of (arg)
-             * Using typename : to tell the compiler that is a type not a static member
+             * Using typename : to tell the compiler that is a type not a static member(dependent types)
              * Using noexcept : to tell the compiler that function doesnt throw exceptions(optimize)   
 
      
