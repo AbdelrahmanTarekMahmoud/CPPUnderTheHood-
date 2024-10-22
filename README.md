@@ -6,9 +6,11 @@ A comprehensive deep dive into the core mechanisms of C++, this repository provi
     #### Move Notes:
              * Using of T&& arg : T&& is a universal reference so it binds to Lvalues and Rvalues
              * Using of constxpr : to evaluate at compile-time
-             * Using std::remove_reference<T> : to remove anyreference of (arg)
-             * Using typename : to tell the compiler that is a type not a static member(dependent types)
-             * Using noexcept : to tell the compiler that function doesnt throw exceptions(optimize)   
+             * Using std::remove_reference_t<T> : to remove any references of (arg)
+             * Using noexcept : to tell the compiler that function doesnt throw exceptions(optimize)
+3. [std::forward](https://github.com/AbdelrahmanTarekMahmoud/CPPUnderTheHood/blob/main/Forward/forward.cpp)
+
+  
 
      
 
