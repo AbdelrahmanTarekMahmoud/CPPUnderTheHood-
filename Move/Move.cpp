@@ -1,8 +1,8 @@
 #include <iostream>
 
 template<typename T>
-constexpr typename std::remove_reference<T>::type&& my_move(T&& arg) noexcept {
-    return static_cast<typename std::remove_reference<T>::type&&>(arg);
+constexpr  std::remove_reference<T>&& my_move(T&& arg) noexcept {
+    return static_cast<std::remove_reference<T>&&>(arg);
 }
 
 class Widget
